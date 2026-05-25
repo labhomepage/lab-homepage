@@ -1,21 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1016/j.istruc.2026.111242
-  title: Mitigation of size effect on shear capacity of steel fiber-reinforced concrete
-    beams without stirrups
-  authors:
-  - Dong-Hee Son
-  - Joo-Hong Chung
-  - Chang-Sik Choi
-  - Baek-Il Bae
-  publisher: Structures
-  date: '2026-03-01'
-  link: https://doi.org/hbp6sr
-  orcid: 0000-0002-3501-8265
-  plugin: sources.py
-  file: sources.yaml
-  corresponding: Baek-Il Bae
-  image: /images/Structures_SFRC Size effect.jpg
 - id: doi:10.1002/suco.70517
   title: "Experimental and analytical evaluation of shear strength in steel\u2010\
     fiber\u2010reinforced concrete conventional coupling beams"
@@ -33,6 +17,22 @@
   plugin: sources.py
   file: sources.yaml
   corresponding: Dong-Hee Son
+- id: doi:10.1016/j.istruc.2026.111242
+  title: Mitigation of size effect on shear capacity of steel fiber-reinforced concrete
+    beams without stirrups
+  authors:
+  - Dong-Hee Son
+  - Joo-Hong Chung
+  - Chang-Sik Choi
+  - Baek-Il Bae
+  publisher: Structures
+  date: '2026-03-01'
+  link: https://doi.org/hbp6sr
+  orcid: 0000-0002-3501-8265
+  plugin: sources.py
+  file: sources.yaml
+  corresponding: Baek-Il Bae
+  image: /images/Structures_SFRC Size effect.jpg
 - id: doi:10.1186/s40069-026-00894-5
   title: Tension Stiffening Effect of Reinforced Ultra-high-Performance Concrete Members
     in Tension with Thin Cover Thickness
