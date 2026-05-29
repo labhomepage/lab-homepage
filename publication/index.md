@@ -190,7 +190,7 @@ nav:
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">4.</div>
-    <div>송성휘, <strong><u>손동희</u></strong>, 손동희, 배백일, 배백일, 최창식, 최창식. (2023). 일반 철근 배근 상세를 갖는 강섬유 보강 콘크리트 연결보의 전단강도 평가. 한국구조물진단유지관리공학회 논문집, 27(1), 37-45. https://doi.org/10.11112/jksmi.2023.27.1.37</div>
+    <div>송성휘, <strong><u>손동희</u></strong>, 손동희, 배백일, 배백일, 최창식. (2023). 일반 철근 배근 상세를 갖는 강섬유 보강 콘크리트 연결보의 전단강도 평가. 한국구조물진단유지관리공학회 논문집, 27(1), 37-45. https://doi.org/10.11112/jksmi.2023.27.1.37</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">3.</div>
