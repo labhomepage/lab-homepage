@@ -15,7 +15,7 @@ nav:
 
   <div class="pub-stat-card" onclick="showPub('scopus', this)" data-pub="scopus">
     <div class="pub-stat-label">Scopus</div>
-    <div class="pub-stat-value">14</div>
+    <div class="pub-stat-value">15</div>
     <div class="pub-stat-sub">Journal Papers</div>
   </div>
 
@@ -122,16 +122,20 @@ nav:
 
 <div id="section-scopus" class="pub-content pub-left" style="display:none; text-align:left;">
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">15.</div>
+    <div>김유민, 이문석, <strong><u>손동희</u></strong>, 배백일, 최창식. (2026). 폴리프로필렌 섬유의 형상 및 혼입률에 따른 섬유보강 콘크리트의 온도별 기계적 성능 평가. 콘크리트학회 논문집, 38(2), 129-137. https://doi.org/10.4334/JKCI.2026.38.2.129</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">14.</div>
-    <div>조성원, 이문석, <strong><u>손동희</u></strong>, 배백일, 최창식 (2026). 비선형 유한요소해석을 통한 PC 보강재가 삽입된 슬래브 계면의 균열각 변화에 따른 뚫림전단강도 평가. 콘크리트학회 논문집. https://doi.org/10.4334/JKCI.2026.38.1.031</div>
+    <div>조성원, 이문석, <strong><u>손동희</u></strong>, 배백일, 최창식 (2026). 비선형 유한요소해석을 통한 PC 보강재가 삽입된 슬래브 계면의 균열각 변화에 따른 뚫림전단강도 평가. 콘크리트학회 논문집, 38(1), 31-39. https://doi.org/10.4334/JKCI.2026.38.1.031</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">13.</div>
-    <div>정유진, 이문석, <strong><u>손동희</u></strong>, 배백일, 최창식 (2025). 분리타설구간에 180도 표준갈고리 철근으로 겹침이음된 슬래브에 대한 이음길이 영향 분석. 콘크리트학회 논문집. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE12537645</div>
+    <div>정유진, 이문석, <strong><u>손동희</u></strong>, 배백일, 최창식. (2025). 분리타설구간에 180도 표준갈고리 철근으로 겹침이음된 슬래브에 대한 이음길이 영향 분석. 콘크리트학회 논문집, 37(6), 747-755. https://doi.org/10.4334/JKCI.2025.37.6.747</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">12.</div>
-    <div>오경수, <strong><u>손동희</u></strong>, 최현기, 배백일, 최창식 (2024). 크기효과를 고려한 강섬유 콘크리트 보의 전단강도 분석. 콘크리트학회 논문집. https://scholarworks.bwise.kr/hanyang/handle/2021.sw.hanyang/210589</div>
+    <div>오경수, <strong><u>손동희</u></strong>, 최현기, 배백일, 최창식. (2024). 크기효과를 고려한 강섬유 콘크리트 보의 전단강도 분석. 콘크리트학회 논문집, 36(4), 367-374. https://doi.org/10.4334/JKCI.2024.36.4.367</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">11.</div>
