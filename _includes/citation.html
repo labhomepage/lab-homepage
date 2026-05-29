@@ -42,7 +42,7 @@
         class="citation-title"
         style="font-size: 1.25em; font-weight: 700; text-decoration: none; color: inherit;"
       >
-        {{ citation.title | default: "[no title info]" }}
+        {% if include.number %}<span style="color:#9aa5b1; font-weight:700; margin-right:6px;">#{{ include.number }}</span>{% endif %}{{ citation.title | default: "[no title info]" }}
       </a>
 
       <div class="citation-authors"
