@@ -11,6 +11,9 @@
   | reverse
 %}
 
+{% assign total_count = data | size %}
+{% assign running_index = 0 %}
+
 {% for year in years %}
   {% assign data = year.items %}
 
@@ -21,9 +24,12 @@
 
   {% for d in data %}
     {% assign style = d.style | default: include.style %}
+    {% assign item_number = total_count | minus: running_index %}
+    {% assign running_index = running_index | plus: 1 %}
 
     {%
       include {{ include.component | append: ".html" }}
+      number=item_number
       affiliation=d.affiliation
       author=d.author
       authors=d.authors
