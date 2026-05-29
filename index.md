@@ -138,7 +138,7 @@ Recent journal papers, conference publications, and major academic outputs of SA
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/논문집표지.jpg"
   link="publications"
   title="Publications"
   flip=true
