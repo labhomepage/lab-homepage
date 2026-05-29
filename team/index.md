@@ -110,6 +110,17 @@ nav:
   .team-grid-narrow .member-photo {
     height: 200px;
   }
+  
+  .member-name-en-block {
+    display: block;
+    font-size: 1.0rem;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: -0.01em;
+    margin-top: 2px;      /* 한글이름과의 위아래 간격 (좁게) */
+    margin-bottom: 6px;   /* 영문이름과 Senior 사이 간격 */
+  }
+  
 </style>
 
 ## M.S. Students
@@ -138,7 +149,7 @@ nav:
 <div class="team-grid-narrow">
   <div class="member-card">
     <div class="member-info">
-      <h3 class="member-name">김주영 <span class="member-name-en">(Kim, Juyoung)</span></h3>
+      <h3 class="member-name">김주영 <span class="member-name-en-block">(Kim, Juyoung)</span></h3>
       <p class="member-role">Senior</p>
       <p class="member-detail"><b>Email:</b> juyong1229@gmail.com</p>
     </div>
@@ -146,7 +157,7 @@ nav:
 
   <div class="member-card">
     <div class="member-info">
-      <h3 class="member-name">박채영 <span class="member-name-en">(Park, Chaeyoung)</span></h3>
+      <h3 class="member-name">박채영 <span class="member-name-en-block">(Park, Chaeyoung)</span></h3>
       <p class="member-role">Senior</p>
       <p class="member-detail"><b>Email:</b> chae05220@naver.com</p>
     </div>
@@ -154,7 +165,7 @@ nav:
 
   <div class="member-card">
     <div class="member-info">
-      <h3 class="member-name">정민경 <span class="member-name-en">(Jung, Minkyung)</span></h3>
+      <h3 class="member-name">정민경 <span class="member-name-en-block">(Jung, Minkyung)</span></h3>
       <p class="member-role">Senior</p>
       <p class="member-detail"><b>Email:</b> alsrudwjddoli@naver.com</p>
     </div>
@@ -162,7 +173,7 @@ nav:
 
   <div class="member-card">
     <div class="member-info">
-      <h3 class="member-name">허진영 <span class="member-name-en">(Heo, Jinyoung)</span></h3>
+      <h3 class="member-name">허진영 <span class="member-name-en-block">(Heo, Jinyoung)</span></h3>
       <p class="member-role">Senior</p>
       <p class="member-detail"><b>Email:</b> gjwlsdud021210@naver.com</p>
     </div>
@@ -170,7 +181,7 @@ nav:
 
   <div class="member-card">
     <div class="member-info">
-      <h3 class="member-name">황해원 <span class="member-name-en">(Hwang, Haewon)</span></h3>
+      <h3 class="member-name">황해원 <span class="member-name-en-block">(Hwang, Haewon)</span></h3>
       <p class="member-role">Senior</p>
       <p class="member-detail"><b>Email:</b> hwanghw512@naver.com</p>
     </div>
@@ -184,7 +195,7 @@ nav:
   <div class="member-card">
     <img src="https://labhomepage.github.io/sassl/images/%EC%9C%A4%EC%84%B1%EC%88%98.jpg" alt="윤성수" class="member-photo">
     <div class="member-info">
-      <h3 class="member-name">윤성수 <span class="member-name-en">(Yoon, Seongsu)</span></h3>
+      <h3 class="member-name">윤성수 <span class="member-name-en-block">(Yoon, Seongsu)</span></h3>
       <p class="member-role">Junior</p>
       <p class="member-detail"><b>Email:</b> yss031226@naver.com</p>
     </div>
@@ -193,7 +204,7 @@ nav:
   <div class="member-card">
     <img src="https://labhomepage.github.io/sassl/images/%EA%B8%88%EC%8A%B9%EC%9A%B0.jpg" alt="금승우" class="member-photo">
     <div class="member-info">
-      <h3 class="member-name">금승우 <span class="member-name-en">(Geum, Seungwoo)</span></h3>
+      <h3 class="member-name">금승우 <span class="member-name-en-block">(Geum, Seungwoo)</span></h3>
       <p class="member-role">Junior</p>
       <p class="member-detail"><b>Email:</b> rmatmddn0815@naver.com</p>
     </div>
@@ -202,7 +213,7 @@ nav:
   <div class="member-card">
     <img src="https://labhomepage.github.io/sassl/images/%EB%B0%B1%EC%A2%85%EC%9A%B0.jpg" alt="백종우" class="member-photo">
     <div class="member-info">
-      <h3 class="member-name">백종우 <span class="member-name-en">(Baek, Jongwoo)</span></h3>
+      <h3 class="member-name">백종우 <span class="member-name-en-block">(Baek, Jongwoo)</span></h3>
       <p class="member-role">Junior</p>
       <p class="member-detail"><b>Email:</b> baekjohn8821@gmail.com</p>
     </div>
@@ -211,7 +222,7 @@ nav:
   <div class="member-card">
     <img src="https://labhomepage.github.io/sassl/images/%EC%86%90%ED%98%84%EC%9A%B0.jpg" alt="손현우" class="member-photo">
     <div class="member-info">
-      <h3 class="member-name">손현우 <span class="member-name-en">(Son, Hyunwoo)</span></h3>
+      <h3 class="member-name">손현우 <span class="member-name-en-block">(Son, Hyunwoo)</span></h3>
       <p class="member-role">Junior</p>
     </div>
   </div>
@@ -219,7 +230,7 @@ nav:
   <div class="member-card">
     <img src="https://labhomepage.github.io/sassl/images/%EC%A1%B0%ED%98%84%EB%AF%BC.jpg" alt="조현민" class="member-photo">
     <div class="member-info">
-      <h3 class="member-name">조현민 <span class="member-name-en">(Cho, Hyunmin)</span></h3>
+      <h3 class="member-name">조현민 <span class="member-name-en-block">(Cho, Hyunmin)</span></h3>
       <p class="member-role">Junior</p>
     </div>
   </div>
