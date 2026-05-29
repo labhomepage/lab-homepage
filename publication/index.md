@@ -15,7 +15,7 @@ nav:
 
   <div class="pub-stat-card" onclick="showPub('scopus', this)" data-pub="scopus">
     <div class="pub-stat-label">Scopus</div>
-    <div class="pub-stat-value">13</div>
+    <div class="pub-stat-value">14</div>
     <div class="pub-stat-sub">Journal Papers</div>
   </div>
 
@@ -120,261 +120,335 @@ nav:
   {% include list.html data="citations" component="citation" style="rich" %}
 </div>
 
-<div id="section-scopus" class="pub-content" style="display:none;">
-  {% include list.html data="scopuslist" component="citation" style="rich" %}
+<div id="section-scopus" class="pub-content pub-left" style="display:none; text-align:left;">
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">14.</div>
+    <div>조성원, 이문석, <strong><u>손동희</u></strong>, 배백일, 최창식 (2026). 비선형 유한요소해석을 통한 PC 보강재가 삽입된 슬래브 계면의 균열각 변화에 따른 뚫림전단강도 평가. 콘크리트학회 논문집. https://doi.org/10.4334/JKCI.2026.38.1.031</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">13.</div>
+    <div>정유진, 이문석, <strong><u>손동희</u></strong>, 배백일, 최창식 (2025). 분리타설구간에 180도 표준갈고리 철근으로 겹침이음된 슬래브에 대한 이음길이 영향 분석. 콘크리트학회 논문집. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE12537645</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">12.</div>
+    <div>오경수, <strong><u>손동희</u></strong>, 최현기, 배백일, 최창식 (2024). 크기효과를 고려한 강섬유 콘크리트 보의 전단강도 분석. 콘크리트학회 논문집. https://scholarworks.bwise.kr/hanyang/handle/2021.sw.hanyang/210589</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">11.</div>
+    <div>주조린, 이문석, <strong><u>손동희</u></strong>, 최창식, 최현기, 배백일 (2024). 피복두께와 강섬유 혼입률에 따른 초고성능 콘크리트의 균열거동과 인장증강효과. 대한건축학회 논문집. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11698677</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">10.</div>
+    <div>박성준, <strong><u>손동희</u></strong>, 배백일, 정다운, 최창식 (2023). 전단키를 갖는 프리캐스트 콘크리트 합성보의 수평전단강도. 콘크리트학회 논문집. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11642537</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">9.</div>
+    <div>이혜원, <strong><u>손동희</u></strong>, 배백일, 최창식 (2023). 직접전단 시험을 통한 분리타설된 강섬유 보강 콘크리트의 전단마찰강도 분석. 대한건축학회 논문집. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11553848</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">8.</div>
+    <div>유진규, <strong><u>손동희</u></strong>, 배백일, 유창기, 최창식 (2023). 겹침이음실험을 통한 삼중나노소재 혼입 철근콘크리트보의 부착성능에 대한 실험적 고찰. 대한건축학회 논문집. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11553847</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">7.</div>
+    <div><strong><u>손동희</u></strong>, 정다운, 유무영, 배백일, 최창식 (2022). 확대머리철근이 정착된 강섬유 보강 콘크리트 외부 보-기둥 접합부의 내진성능. 대한건축학회 논문집. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11168121</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">6.</div>
+    <div><strong><u>손동희</u></strong>, 유무영, 배백일, 최창식 (2022). 단부 파쇄 후 수직철근 보강공법이 적용된 2층 철근콘크리트 구조벽체의 휨 거동 특성. 대한건축학회 논문집. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11152069</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">5.</div>
+    <div>김종규, <strong><u>손동희</u></strong>, 배백일, 엄순섭, 최창식 (2022). 반복하중을 받는 조립형 CFT 기둥의 리브길이에 따른 휨 성능 평가. 대한건축학회 논문집. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11078706</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">4.</div>
+    <div>유별이, <strong><u>손동희</u></strong>, 배백일, 엄순섭, 최창식 (2022). 조립형 CFT 기둥의 리브 길이에 따른 중심 압축 성능. 콘크리트학회 논문집. https://repository.hanyang.ac.kr/handle/20.500.11754/177072</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">3.</div>
+    <div>안효준, <strong><u>손동희</u></strong>, 정주홍, 최창식 (2021). 매크로 합성섬유를 혼입한 데크슬래브의 열적특성. 콘크리트학회 논문집. https://repository.hanyang.ac.kr/handle/20.500.11754/177077</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">2.</div>
+    <div>이문석, 정주홍, <strong><u>손동희</u></strong>, 최창식 (2020). 매크로 합성섬유를 혼입한 철근콘크리트 슬래브의 휨 강도평가. 대한건축학회 논문집. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE10506068</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">1.</div>
+    <div><strong><u>손동희</u></strong>, 정주홍, 좌동훈, 이종민, 최창식 (2018). 일체형 전단보강재로 보강된 철근콘크리트 보의 전단강도에 대한 실험적 연구. 콘크리트학회 논문집. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07550882</div>
+  </div>
 </div>
 
-<div id="section-domestic" class="pub-content" style="display:none;">
-  {% include list.html data="domesticlist" component="citation" style="rich" %}
+<div id="section-domestic" class="pub-content pub-left" style="display:none; text-align:left;">
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">5.</div>
+    <div><strong><u>손동희</u></strong> (2025). 유한요소해석에 의한 단부파쇄 후 수직철근이 보강된 철근콘크리트 전단벽의 휨 보강설계기법 제안. 교통건축 논문집. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE12537645</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">4.</div>
+    <div>송성휘, <strong><u>손동희</u></strong>, 배백일, 최창식 (2023). 일반 철근 배근 상세를 갖는 강섬유 보강 콘크리트 연결보의 전단강도 평가. 한국구조물진단유지관리공학회 논문집. https://scholarworks.bwise.kr/hanyang/handle/2021.sw.hanyang/182471</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">3.</div>
+    <div>황보동선, <strong><u>손동희</u></strong>, 배백일, 최창식 (2022). 반복하중을 받는 수직분할된 철근콘크리트 전단벽의 강성저감효과. 한국구조물진단유지관리공학회 논문집. https://repository.hanyang.ac.kr/handle/20.500.11754/177071</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">2.</div>
+    <div>최지윤, <strong><u>손동희</u></strong>, 배백일, 최창식 (2022). 반복하중을 받는 대각보강된 철근콘크리트 연결보의 강섬유 형상비와 혼입률에 따른 이력거동. 한국구조물진단유지관리공학회 논문집. https://scholarworks.bwise.kr/hanyang/handle/2021.sw.hanyang/203146</div>
+  </div>
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">1.</div>
+    <div>배백일, <strong><u>손동희</u></strong>, 최현기, 정형석, 최창식 (2021). 이음된 초고강도 강섬유보강콘크리트 보의 휨강도에 관한 실험적 연구. 한국구조물진단유지관리공학회 논문집. https://repository.hanyang.ac.kr/handle/20.500.11754/177076</div>
+  </div>
 </div>
 
 <div id="section-intl" class="pub-content pub-left" style="display:none; text-align:left;">
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">5.</div>
-    <div> Son, D. H., Jeong, D. U., Choi, C. S., (2024) Mechanical Performance of Concrete Incorporated with Triple Hybrid Nanomaterials: Assessment on the bond Characteristics, 14th International Symposium on Architectural Interchanges in Asia, September </div>
+    <div> <strong><u>Son, D. H.</u></strong>, Jeong, D. U., Choi, C. S., (2024) Mechanical Performance of Concrete Incorporated with Triple Hybrid Nanomaterials: Assessment on the bond Characteristics, 14th International Symposium on Architectural Interchanges in Asia, September </div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">4.</div>
-    <div> Son, D. H., Bae, B. I., Choi, C. S., (2024) Seismic Retrofitting of Reinforced Concrete Walls through Vertical Division: Evaluating Stiffness Reduction and Load Redistribution Effect, 18th World Conference Earthquake Engineering, July </div>
+    <div> <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S., (2024) Seismic Retrofitting of Reinforced Concrete Walls through Vertical Division: Evaluating Stiffness Reduction and Load Redistribution Effect, 18th World Conference Earthquake Engineering, July </div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">3.</div>
-    <div> Kim, H., Choi, C. S., Seok, S., Son, D. H., Lee, L. H., (2022) Verification of Vertically Divided walls through Finite Element Analysis, 13th International Symposium on Architectural Interchanges in Asia, November </div>
+    <div> Kim, H., Choi, C. S., Seok, S., <strong><u>Son, D. H.</u></strong>, Lee, L. H., (2022) Verification of Vertically Divided walls through Finite Element Analysis, 13th International Symposium on Architectural Interchanges in Asia, November </div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">2.</div>
-    <div> You, B. I., Son, D. H., Bae, B. I., Choi, C. S. (2021). Strength Evaluation of Prefabricated CFTs with saw-toothed Ribs., 11th International Symposium on Steel Structures, November, 2021, Jeju, Korea </div>
+    <div> You, B. I., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2021). Strength Evaluation of Prefabricated CFTs with saw-toothed Ribs., 11th International Symposium on Steel Structures, November, 2021, Jeju, Korea </div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">1.</div>
-    <div>Son, D. H., Choi, C. S., Min, N. K., Lee, D. W. (2018). Shear Performance of RC Beam with Integrated Shear Reinforcement, 12th International Symposium on Architectural Interchanges in Asia, October, 2018, Pyeongchang, Korea</div>
+    <div><strong><u>Son, D. H.</u></strong>, Choi, C. S., Min, N. K., Lee, D. W. (2018). Shear Performance of RC Beam with Integrated Shear Reinforcement, 12th International Symposium on Architectural Interchanges in Asia, October, 2018, Pyeongchang, Korea</div>
   </div>
 </div>
 
 <div id="section-domconf" class="pub-content pub-left" style="display:none; text-align:left;">
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">56.</div>
-    <div>Son, D. H., (2025) Load Redistribution Effect of Existing Reinforced Concrete Structural Wall System Applying Vertical Division Technique Concrete Research Committee, 2025 Spring Conference of the Korea Concrete Institute.</div>
+    <div><strong><u>Son, D. H.</u></strong>, (2025) Load Redistribution Effect of Existing Reinforced Concrete Structural Wall System Applying Vertical Division Technique Concrete Research Committee, 2025 Spring Conference of the Korea Concrete Institute.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">55.</div>
-    <div>Son, D. H., (2025) Safety Assurance Strategies for Existing Reinforced Concrete Shear Walls in Vertical Extension Remodeling of Apartment Buildings, Early-Career Researchers Networking Session, 2025 Spring Conference of the Architectural Institute of Korea</div>
+    <div><strong><u>Son, D. H.</u></strong>, (2025) Safety Assurance Strategies for Existing Reinforced Concrete Shear Walls in Vertical Extension Remodeling of Apartment Buildings, Early-Career Researchers Networking Session, 2025 Spring Conference of the Architectural Institute of Korea</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">54.</div>
-    <div>Cho, S. W., Lee, M. S., Son, D. H., Bae. B. I., Choi C. S. (2025). Nonlinear Finite Element Analysis of Punching Shear Strength in Flat Plate slabs with PC Head. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(2), 100</div>
+    <div>Cho, S. W., Lee, M. S., <strong><u>Son, D. H.</u></strong>, Bae. B. I., Choi C. S. (2025). Nonlinear Finite Element Analysis of Punching Shear Strength in Flat Plate slabs with PC Head. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(2), 100</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">53.</div>
-    <div>Son, D. H., Lee, M. S., Bae. B. I., Choi C. S. (2025). Flexural Retrofit Design of Reinforced Concrete Shear Walls Using Finite Element Analysis. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(2), 105</div>
+    <div><strong><u>Son, D. H.</u></strong>, Lee, M. S., Bae. B. I., Choi C. S. (2025). Flexural Retrofit Design of Reinforced Concrete Shear Walls Using Finite Element Analysis. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(2), 105</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">52.</div>
-    <div>Jung, Y. J., Lee, M. S., Son, D. H., Bae. B. I., Choi C. S. (2025). Lap Splice Length Effect of 180-Degree Standard Hooked Bars in Precast Concrete Slabs. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(2), 111</div>
+    <div>Jung, Y. J., Lee, M. S., <strong><u>Son, D. H.</u></strong>, Bae. B. I., Choi C. S. (2025). Lap Splice Length Effect of 180-Degree Standard Hooked Bars in Precast Concrete Slabs. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(2), 111</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">51.</div>
-    <div>Lee, M. S., Son, D. H., Bae, B. I., Choi, C. S. (2025). Analysis of Effective Tensile Cross-Sectional Area of UHPC according to Steel Fiber. Proceeding of the Korea Concrete Institute, 37(1), 105-106</div>
+    <div>Lee, M. S., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2025). Analysis of Effective Tensile Cross-Sectional Area of UHPC according to Steel Fiber. Proceeding of the Korea Concrete Institute, 37(1), 105-106</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">50.</div>
-    <div>Jeong, H. J. Lee, M. S. Son, D. H., Bae, B. I., Choi, C. S. (2025). A Study on the Reduction of Transverse Reinforcement Detailing and the Shear Strain of Joints with Steel Fiber Reinforced Ductile Connections, Proceeding of the Korea Concrete Institute, 37(2), 79-80</div>
+    <div>Jeong, H. J. Lee, M. S. <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2025). A Study on the Reduction of Transverse Reinforcement Detailing and the Shear Strain of Joints with Steel Fiber Reinforced Ductile Connections, Proceeding of the Korea Concrete Institute, 37(2), 79-80</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">49.</div>
-    <div>Son, D. H., Bae, B. I., Choi, C. S. (2025). Statistical Analysis on the Mitigation of Size Effect in Steel Fiber Reinforced Concrete Beams Based on Data Filtering, Proceeding of the Korea Concrete Institute, 37(2), 51-52</div>
+    <div><strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2025). Statistical Analysis on the Mitigation of Size Effect in Steel Fiber Reinforced Concrete Beams Based on Data Filtering, Proceeding of the Korea Concrete Institute, 37(2), 51-52</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">48.</div>
-    <div>Ha, S. J., Son, D. H. (2025). Seismic behavior evaluation of FRP reinforced concrete columns using finite element analysis. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(1), 76.</div>
+    <div>Ha, S. J., <strong><u>Son, D. H.</u></strong> (2025). Seismic behavior evaluation of FRP reinforced concrete columns using finite element analysis. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(1), 76.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">47.</div>
-    <div>Son, D. H., Ha, S. J., Bae, B. I., Choi, C. S. (2025). Analytical study on the stiffness reduction effect according to upper boundary conditions of vertically divided RC shear walls. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 68.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Ha, S. J., Bae, B. I., Choi, C. S. (2025). Analytical study on the stiffness reduction effect according to upper boundary conditions of vertically divided RC shear walls. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 68.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">46.</div>
-    <div>Jeong, H. J., Son, D. H., Bae, B. I., Lee, M. S., Choi, C. S. (2025). Shear strength analysis according to connection details such as splices of reinforcement and development in internal joints of precast concrete. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 88.</div>
+    <div>Jeong, H. J., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Lee, M. S., Choi, C. S. (2025). Shear strength analysis according to connection details such as splices of reinforcement and development in internal joints of precast concrete. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 88.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">45.</div>
-    <div>Cho, S. W., Lee, M. S., Son, D. H., Bae, B. I., Choi, C. S. (2025). Analytical study on the variation of punching shear crack angles at the interface of different compressive strength concrete in flat plates with PC shear member. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 30.</div>
+    <div>Cho, S. W., Lee, M. S., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2025). Analytical study on the variation of punching shear crack angles at the interface of different compressive strength concrete in flat plates with PC shear member. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 30.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">44.</div>
-    <div>Kim, Y. M., Lee, M. S., Son, D. H., Bae, B. I., Choi, C. S. (2025). Mechanical performance evaluation of concrete based on the content of polypropylene fibers after high temperature exposure. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 35.</div>
+    <div>Kim, Y. M., Lee, M. S., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2025). Mechanical performance evaluation of concrete based on the content of polypropylene fibers after high temperature exposure. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 35.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">43.</div>
-    <div>Oh, C. Y., Lee, M. S., Son, D. H., Bae, B. I., Choi, C. S. (2025). Proposal and evaluation of an expansion angle model based on statistical analysis of concrete under confining pressure. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 274.</div>
+    <div>Oh, C. Y., Lee, M. S., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2025). Proposal and evaluation of an expansion angle model based on statistical analysis of concrete under confining pressure. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 274.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">42.</div>
-    <div>Lee, M. S., Son, D. H., Bae, B. I., Choi, C. S. (2025). Evaluation of bond strength between concrete and rebar according to volume ratio of nano-material. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 275.</div>
+    <div>Lee, M. S., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2025). Evaluation of bond strength between concrete and rebar according to volume ratio of nano-material. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 275.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">41.</div>
-    <div>Jung, Y. J., Son, D. H., Bae, B. I., Lee, M. S., Choi, C. S. (2025). Analysis of splice length according to cover thickness in precast concrete slabs using 180-degree hooked bars. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 29.</div>
+    <div>Jung, Y. J., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Lee, M. S., Choi, C. S. (2025). Analysis of splice length according to cover thickness in precast concrete slabs using 180-degree hooked bars. Proceedings of Korea Institute for Structural Maintenance and Inspection, 29(1), 29.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">40.</div>
-    <div>Son, D. H., Bae, B. I., Choi, C. S. (2024). Analysis of the slab effect on reinforced concrete walls retrofitted with wall end crushing method. Proceedings of Korea Institute for Structural Maintenance and Inspection, 28(2), 60.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2024). Analysis of the slab effect on reinforced concrete walls retrofitted with wall end crushing method. Proceedings of Korea Institute for Structural Maintenance and Inspection, 28(2), 60.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">39.</div>
-    <div>Cho, S. W., Lee, M. S., Son, D. H., Bae, B. I., Choi, C. S. (2024). Analytical Study on Punching Shear of Slab-Column Connections with PC Shear Member Based on Concrete Compressive Strength. Proceeding of the Korea Concrete Institute, 36(2), 185-186</div>
+    <div>Cho, S. W., Lee, M. S., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2024). Analytical Study on Punching Shear of Slab-Column Connections with PC Shear Member Based on Concrete Compressive Strength. Proceeding of the Korea Concrete Institute, 36(2), 185-186</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">38.</div>
-    <div>Jung, Y. J., Son, D. H., Lee, M. S., Bae, B. I., Choi, C. S. (2024). Finite Element Analysis of Reinforced Concrete Slab with Noncontact Lap Splices Using Hooked Rebars in ABAQUS. Proceeding of the Korea Concrete Institute, 36(2), 187-188.</div>
+    <div>Jung, Y. J., <strong><u>Son, D. H.</u></strong>, Lee, M. S., Bae, B. I., Choi, C. S. (2024). Finite Element Analysis of Reinforced Concrete Slab with Noncontact Lap Splices Using Hooked Rebars in ABAQUS. Proceeding of the Korea Concrete Institute, 36(2), 187-188.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">37.</div>
-    <div>Park, Y. J., Son, D. H., Bae, B. I., Choi, C. S. (2024). Analysis of Shear Contribution in PC Composite Concrete Beams Based on Transverse Reinforcement Ratio and Moment Direction. Proceeding of the Korea Concrete Institute, 36(2), 49-50.</div>
+    <div>Park, Y. J., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2024). Analysis of Shear Contribution in PC Composite Concrete Beams Based on Transverse Reinforcement Ratio and Moment Direction. Proceeding of the Korea Concrete Institute, 36(2), 49-50.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">36.</div>
-    <div>Chae, Y. H., Park, S. H., Son, D. H., Bae, B. I., Choi, C. S. (2024). Fracture Simulation of CT-Scanned Concrete Specimens Using Finite Element Analysis. Proceeding of the Korea Concrete Institute, 36(2), 195-196</div>
+    <div>Chae, Y. H., Park, S. H., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2024). Fracture Simulation of CT-Scanned Concrete Specimens Using Finite Element Analysis. Proceeding of the Korea Concrete Institute, 36(2), 195-196</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">35.</div>
-    <div>Kim, Y. M., Son, D. H., Bae, B. I., Choi, C. S. (2024). Statistical Analysis of Compressive Strength of High-Strength Concrete Reinforced with PP Fibers After High-Temperature Exposure. Proceeding of the Korea Concrete Institute, 36(2), 55-56.</div>
+    <div>Kim, Y. M., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2024). Statistical Analysis of Compressive Strength of High-Strength Concrete Reinforced with PP Fibers After High-Temperature Exposure. Proceeding of the Korea Concrete Institute, 36(2), 55-56.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">34.</div>
-    <div>Lee, M. S., Son, D. H., Bae, B. I., Choi, C. S. (2024). The Analytical Study on the Bond Strength of Non-contact Lap Spliced 180-degree Hooked Rebar. Proceeding of the Korea Concrete Institute, 36(2), 135-136.</div>
+    <div>Lee, M. S., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2024). The Analytical Study on the Bond Strength of Non-contact Lap Spliced 180-degree Hooked Rebar. Proceeding of the Korea Concrete Institute, 36(2), 135-136.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">33.</div>
-    <div>Park, S. H., Son, D. H., Bae, B. I., Seok, S. W., Choi, C. S. (2024). Analysis of the Effects of Confining Pressure and Volumetric Changes on Concrete Dilation Angle. Proceedings of the Korea Concrete Institute, 36(2), 691-692.</div>
+    <div>Park, S. H., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Seok, S. W., Choi, C. S. (2024). Analysis of the Effects of Confining Pressure and Volumetric Changes on Concrete Dilation Angle. Proceedings of the Korea Concrete Institute, 36(2), 691-692.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">32.</div>
-    <div>Oh, G., Son, D. H., Choi, H. K., Bae, B. I., Choi, C. S., (2024) Shear Stress Analysis of Steel Fiber-Reinforced Concrete Beams Based on Effective Depth. Proceeding of the Korea Concrete Institute, 36(2), 299-300.</div>
+    <div>Oh, G., <strong><u>Son, D. H.</u></strong>, Choi, H. K., Bae, B. I., Choi, C. S., (2024) Shear Stress Analysis of Steel Fiber-Reinforced Concrete Beams Based on Effective Depth. Proceeding of the Korea Concrete Institute, 36(2), 299-300.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">31.</div>
-    <div>Son, D. H., Bae, B. I., Choi, C. S. (2024). Analysis of Effective Flexural and Shear Stiffness of Vertically Divided Reinforced Concrete Shear Walls, Proceeding of the Korea Concrete Institute, 36(1), 313-314</div>
+    <div><strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2024). Analysis of Effective Flexural and Shear Stiffness of Vertically Divided Reinforced Concrete Shear Walls, Proceeding of the Korea Concrete Institute, 36(1), 313-314</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">30.</div>
-    <div>Song, S. H., Son, D. H., Bae, B. I., Choi, C. S. (2024). Structural Behavior of Assembled CFT Column-composite Beam External Diaphragm Connection with Composite Beam Cross-section Details, Proceeding of the Korea Concrete Institute, 36(1), 349-350.</div>
+    <div>Song, S. H., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2024). Structural Behavior of Assembled CFT Column-composite Beam External Diaphragm Connection with Composite Beam Cross-section Details, Proceeding of the Korea Concrete Institute, 36(1), 349-350.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">29.</div>
-    <div>Son, D. H., Bae, B. I., Choi, C. S. (2024). The Influence of Nanomaterial Dispersion on the Bond Performance between Concrete and Reinforcing Bars, Proceedings of Architectural Institute of Korea, 44(1), 443-443.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2024). The Influence of Nanomaterial Dispersion on the Bond Performance between Concrete and Reinforcing Bars, Proceedings of Architectural Institute of Korea, 44(1), 443-443.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">28.</div>
-    <div>Son, D. H., Choi, C. S. (2024). Structural Behavior of Reinforced Concrete Two-Story Structural Walls with Slabs Using Wall End Crushing, Proceedings of Korea Institute for Structural Maintenance and Inspection, 28(1), 62-62</div>
+    <div><strong><u>Son, D. H.</u></strong>, Choi, C. S. (2024). Structural Behavior of Reinforced Concrete Two-Story Structural Walls with Slabs Using Wall End Crushing, Proceedings of Korea Institute for Structural Maintenance and Inspection, 28(1), 62-62</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">27.</div>
-    <div>Son, D. H., Park, Y. J., Kim, Y. M., Bae, B. I., Choi, C. S. (2023). Cyclic Loading Test of Steel Fiber Reinforced Concrete Exterior Beam-Column Joints According to Anchorage Type, Proceedings of the Korea Concrete Institute, 35(2), 85-86.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Park, Y. J., Kim, Y. M., Bae, B. I., Choi, C. S. (2023). Cyclic Loading Test of Steel Fiber Reinforced Concrete Exterior Beam-Column Joints According to Anchorage Type, Proceedings of the Korea Concrete Institute, 35(2), 85-86.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">26.</div>
-    <div>Son, D. H., Bae, B. I., Choi, C. S. (2023). Stiffness reduction model of vertically divided reinforced concrete shear walls, Proceedings of Architectural Institute of Korea, 43(2), 342-342.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2023). Stiffness reduction model of vertically divided reinforced concrete shear walls, Proceedings of Architectural Institute of Korea, 43(2), 342-342.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">25.</div>
-    <div>Son, D. H., Bae, B. I., Choi, C. S. (2023). Structural analysis of an old apartment building using the shear wall vertical division method. Proceedings of Korean Recycled Construction Resources Institute, 208-209.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2023). Structural analysis of an old apartment building using the shear wall vertical division method. Proceedings of Korean Recycled Construction Resources Institute, 208-209.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">24.</div>
-    <div>Bae, B. I., Choi, C. S., Son, D. H. (2023). The Analytical Study on the Flexural Performance of Reinforced Concrete Flexural Members According to the Replacement ratio of Recycled Coarse Aggregate. Proceedings of Korean Recycled Construction Resources Institute, 187-188.</div>
+    <div>Bae, B. I., Choi, C. S., <strong><u>Son, D. H.</u></strong> (2023). The Analytical Study on the Flexural Performance of Reinforced Concrete Flexural Members According to the Replacement ratio of Recycled Coarse Aggregate. Proceedings of Korean Recycled Construction Resources Institute, 187-188.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">23.</div>
-    <div>Son, D. H., Bae, B. I., Choi, C. S. (2023). Structural analysis of an old apartment building using the shear wall vertical division method. Proceedings of Architectural Institute of Korea, 43(1), 915-915.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2023). Structural analysis of an old apartment building using the shear wall vertical division method. Proceedings of Architectural Institute of Korea, 43(1), 915-915.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">22.</div>
-    <div>Ryu, J. G., Son, D. H., Choi, C. S. (2023). An Analysis of Lap-splice performance of triple nano materials reinforced concrete beams. Proceedings of Architectural Institute of Korea, 43(1), 493-493.</div>
+    <div>Ryu, J. G., <strong><u>Son, D. H.</u></strong>, Choi, C. S. (2023). An Analysis of Lap-splice performance of triple nano materials reinforced concrete beams. Proceedings of Architectural Institute of Korea, 43(1), 493-493.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">21.</div>
-    <div>Park, S. J., Son, D. H., Choi, C. S. (2023). Analysis of horizontal shear strength of PC composite beams according to shear key details. Proceedings of Architectural Institute of Korea, 43(1),494-494.</div>
+    <div>Park, S. J., <strong><u>Son, D. H.</u></strong>, Choi, C. S. (2023). Analysis of horizontal shear strength of PC composite beams according to shear key details. Proceedings of Architectural Institute of Korea, 43(1),494-494.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">20.</div>
-    <div>Son, D. H., Bae, B. I., Choi, C. S. (2022). Reduction of strength and stiffness of vertically divided reinforced concrete shear walls. Proceedings of Architectural Institute of Korea, 42(2), 524.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2022). Reduction of strength and stiffness of vertically divided reinforced concrete shear walls. Proceedings of Architectural Institute of Korea, 42(2), 524.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">19.</div>
-    <div>Hwangbo D., Son, D. H., Bae, B. I., Choi, C. S. (2022). Effect of Mechanical Properties on Bond Characteristis of Concrete with Nanomaterials. Proceedings of Architectural Institute of Korea, 42(2), 529.</div>
+    <div>Hwangbo D., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2022). Effect of Mechanical Properties on Bond Characteristis of Concrete with Nanomaterials. Proceedings of Architectural Institute of Korea, 42(2), 529.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">18.</div>
-    <div>Hwangbo D., Son, D. H., Bae, B. I., Choi, C. S. (2022). Evaluating the Bond Stress of Concrete with Triple Nano Materials. Proceedings of the Korea Concrete Institute, 34(1), 341-342.</div>
+    <div>Hwangbo D., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2022). Evaluating the Bond Stress of Concrete with Triple Nano Materials. Proceedings of the Korea Concrete Institute, 34(1), 341-342.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">17.</div>
-    <div>Lee, S. M., Son, D. H., Choi, C. S. (2022). Numerical Study on Mechanical Properties of Triple-Hybrid Reinforced concrete. Proceedings of the Korea Concrete Institute, 34(1), 285-286.</div>
+    <div>Lee, S. M., <strong><u>Son, D. H.</u></strong>, Choi, C. S. (2022). Numerical Study on Mechanical Properties of Triple-Hybrid Reinforced concrete. Proceedings of the Korea Concrete Institute, 34(1), 285-286.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">16.</div>
-    <div>Son, D. H., Bae, B. I., Choi, C. S. (2022). Stiffness Reduction Effect of Vertically Divided Reinforced Concrete Shear Walls According to Rebar Detail. Proceedings of Architectural Institute of Korea, 42(1), 426.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2022). Stiffness Reduction Effect of Vertically Divided Reinforced Concrete Shear Walls According to Rebar Detail. Proceedings of Architectural Institute of Korea, 42(1), 426.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">15.</div>
-    <div>Kim, J. G., Son, D. H., Bae, B. I., Choi, C. S. (2022). Evaluation of Flexural Stiffness of Assembled CFT Columns with Rib Length. Proceedings of Architectural Institute of Korea, 42(1), 425-425.</div>
+    <div>Kim, J. G., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2022). Evaluation of Flexural Stiffness of Assembled CFT Columns with Rib Length. Proceedings of Architectural Institute of Korea, 42(1), 425-425.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">14.</div>
-    <div>Son, D. H., Hwangbo, D., Bae, B. I., Choi, C. S. (2022). Relationship Between Tensile Strength and Compressive Strength of Triple-Hybrid Reinforced Concrete. Proceedings of Korea Institute for Structural Maintenance and Inspection, 26(1), 165-165.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Hwangbo, D., Bae, B. I., Choi, C. S. (2022). Relationship Between Tensile Strength and Compressive Strength of Triple-Hybrid Reinforced Concrete. Proceedings of Korea Institute for Structural Maintenance and Inspection, 26(1), 165-165.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">13.</div>
-    <div>Kim, H., Son, D. H., Bae, B. I., Choi, C. S. (2022). Finite Element Analysis of Vertically Divided Reinforced Concrete Shear wall. Proceedings of Korea Institute for Structural Maintenance and Inspection, 26(1), 43-43.</div>
+    <div>Kim, H., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2022). Finite Element Analysis of Vertically Divided Reinforced Concrete Shear wall. Proceedings of Korea Institute for Structural Maintenance and Inspection, 26(1), 43-43.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">12.</div>
-    <div>Bae, B. I., Son, D. H., Choi, C. S. (2022). Evaluation of Fiber Reinforced Ultra High Strength Concrete Members. Proceedings of Korea Institute for Structural Maintenance and Inspection, 26(1), 51-51.</div>
+    <div>Bae, B. I., <strong><u>Son, D. H.</u></strong>, Choi, C. S. (2022). Evaluation of Fiber Reinforced Ultra High Strength Concrete Members. Proceedings of Korea Institute for Structural Maintenance and Inspection, 26(1), 51-51.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">11.</div>
-    <div>Kim, J. G., Son, D. H., Bae, B. I., Choi, C. S. (2022). Evaluation of Ductility of Prefabricated CFT Columns with Rib Length and Height. Proceedings of Korea Institute for Structural Maintenance and Inspection. 26(1), 19-19.</div>
+    <div>Kim, J. G., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2022). Evaluation of Ductility of Prefabricated CFT Columns with Rib Length and Height. Proceedings of Korea Institute for Structural Maintenance and Inspection. 26(1), 19-19.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">10.</div>
-    <div>Kim, J. G., Son, D. H., Bae, B. I., Choi, C. S. (2021). Evaluation of Deformation Capacity of Prefabricated CFT Columns with Rib Length. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(2), 28-28.</div>
+    <div>Kim, J. G., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2021). Evaluation of Deformation Capacity of Prefabricated CFT Columns with Rib Length. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(2), 28-28.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">9.</div>
-    <div>Hwangbo, D., Son, D. H., Bae, B. I., Choi, C. S. (2021). An Enhancement Effect of Concrete Strength According to Nanomaterials Incorporating Methods. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(2), 174-174.</div>
+    <div>Hwangbo, D., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2021). An Enhancement Effect of Concrete Strength According to Nanomaterials Incorporating Methods. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(2), 174-174.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">8.</div>
-    <div>Bae, B. I., Son, D. H., Choi, C. S. (2021). An Experimental Study on the Flexural Performance of Lap Spliced Ultra High Strength Fiber Reinforced Concrete Members. Proceedings of the Korea Concrete Institute, 33(2), 83-84.</div>
+    <div>Bae, B. I., <strong><u>Son, D. H.</u></strong>, Choi, C. S. (2021). An Experimental Study on the Flexural Performance of Lap Spliced Ultra High Strength Fiber Reinforced Concrete Members. Proceedings of the Korea Concrete Institute, 33(2), 83-84.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">7.</div>
-    <div>Son, D. H., Hwangbo, D., Bae, B. I., Choi, C. S. (2021). Mechanical Properties of Mortar and Concrete According To the Containing Method of Nano Materials. Proceedings of the Korea Concrete Institute, 33(2), 703-704.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Hwangbo, D., Bae, B. I., Choi, C. S. (2021). Mechanical Properties of Mortar and Concrete According To the Containing Method of Nano Materials. Proceedings of the Korea Concrete Institute, 33(2), 703-704.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">6.</div>
-    <div>Ahn, H. J., Son, D. H., Jeong, D., Choi, C. S. (2021). The Mechanical Properties of Concrete Incorporated with Macro Synthetic Fiber Dosage. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(1), 139.</div>
+    <div>Ahn, H. J., <strong><u>Son, D. H.</u></strong>, Jeong, D., Choi, C. S. (2021). The Mechanical Properties of Concrete Incorporated with Macro Synthetic Fiber Dosage. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(1), 139.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">5.</div>
-    <div>Son, D. H., Bae, B. I., Yoo, C. G., Choi, C. S. (2021). The Shear Retrofit Effect of the Vertically Divided Reinforced Concrete Squat wall. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(1), 140-141.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Bae, B. I., Yoo, C. G., Choi, C. S. (2021). The Shear Retrofit Effect of the Vertically Divided Reinforced Concrete Squat wall. Proceedings of Korea Institute for Structural Maintenance and Inspection, 25(1), 140-141.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">4.</div>
-    <div>You, B. I., Son, D. H., Bae, B. I., Choi, C. S. (2021). Properties of Concrete Stress-Strain Curve in Prefabricated CFT Columns. Proceedings of the Korea Concrete Institute, 33(1), 179-180.</div>
+    <div>You, B. I., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2021). Properties of Concrete Stress-Strain Curve in Prefabricated CFT Columns. Proceedings of the Korea Concrete Institute, 33(1), 179-180.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">3.</div>
-    <div>Son, D. H., Bae, B. I., Choi, C. S. (2021). Strength Characteristics of Cement Mortar with Triple Nano Materials. Proceedings of the Korea Concrete Institute, 33(1), 545-546.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2021). Strength Characteristics of Cement Mortar with Triple Nano Materials. Proceedings of the Korea Concrete Institute, 33(1), 545-546.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">2.</div>
-    <div>Son, D. H., Bae, B. I., Lee, L.H., Choi, C. S. (2021). Behavior Characteristics of Steel Fiber Reinforced Concrete Conventional Coupling Beams. Proceedings of Architectural Institute of Korea, 41(1), 398-399.</div>
+    <div><strong><u>Son, D. H.</u></strong>, Bae, B. I., Lee, L.H., Choi, C. S. (2021). Behavior Characteristics of Steel Fiber Reinforced Concrete Conventional Coupling Beams. Proceedings of Architectural Institute of Korea, 41(1), 398-399.</div>
   </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">1.</div>
-    <div>You, B. I., Son, D. H., Bae, B. I., Choi, C. S. (2021). Analysis of Effective Width Considering Rib Length of Prefabricated CFT Columns. Proceedings of Architectural Institute of Korea, 41(1), 400-400.</div>
+    <div>You, B. I., <strong><u>Son, D. H.</u></strong>, Bae, B. I., Choi, C. S. (2021). Analysis of Effective Width Considering Rib Length of Prefabricated CFT Columns. Proceedings of Architectural Institute of Korea, 41(1), 400-400.</div>
   </div>
 </div>
 
