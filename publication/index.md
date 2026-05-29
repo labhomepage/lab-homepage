@@ -7,46 +7,35 @@ nav:
 # {% include icon.html icon="fa-regular fa-file-lines" %}Publication
 
 <div class="pub-summary-wrap">
-  <div class="pub-stat-card">
+  <div class="pub-stat-card active" onclick="showPub('scie', this)" data-pub="scie">
     <div class="pub-stat-label">SCI(E)</div>
     <div class="pub-stat-value">18</div>
     <div class="pub-stat-sub">Journal Papers</div>
   </div>
 
-  <div class="pub-stat-card">
+  <div class="pub-stat-card" onclick="showPub('scopus', this)" data-pub="scopus">
     <div class="pub-stat-label">Scopus</div>
     <div class="pub-stat-value">13</div>
     <div class="pub-stat-sub">Journal Papers</div>
   </div>
 
-  <div class="pub-stat-card">
+  <div class="pub-stat-card" onclick="showPub('domestic', this)" data-pub="domestic">
     <div class="pub-stat-label">Domestic</div>
     <div class="pub-stat-value">5</div>
     <div class="pub-stat-sub">Journal Papers</div>
   </div>
 
-  <div class="pub-stat-card">
+  <div class="pub-stat-card" onclick="showPub('intl', this)" data-pub="intl">
     <div class="pub-stat-label">International Conf.</div>
     <div class="pub-stat-value">5</div>
     <div class="pub-stat-sub">Conference Papers</div>
   </div>
 
-  <div class="pub-stat-card">
+  <div class="pub-stat-card" onclick="showPub('domconf', this)" data-pub="domconf">
     <div class="pub-stat-label">Domestic Conf.</div>
     <div class="pub-stat-value">56</div>
     <div class="pub-stat-sub">Conference Papers</div>
   </div>
-</div>
-
-<div class="pub-tab-wrap">
-  <div class="pub-tab-buttons">
-    <button onclick="showPub('scie', this)" data-pub="scie" class="custom-btn active">SCI(E)</button>
-    <button onclick="showPub('scopus', this)" data-pub="scopus" class="custom-btn">Scopus</button>
-    <button onclick="showPub('domestic', this)" data-pub="domestic" class="custom-btn">Domestic</button>
-    <button onclick="showPub('intl', this)" data-pub="intl" class="custom-btn">International Conf.</button>
-    <button onclick="showPub('domconf', this)" data-pub="domconf" class="custom-btn">Domestic Conf.</button>
-  </div>
-
 </div>
 
 <style>
@@ -65,7 +54,9 @@ nav:
     padding: 18px 14px;
     text-align: center;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    cursor: pointer;
+    user-select: none;
   }
 
   .pub-stat-card:hover {
@@ -73,11 +64,22 @@ nav:
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.10);
   }
 
+  .pub-stat-card.active {
+    border-color: #007bff;
+    box-shadow: 0 12px 28px rgba(0, 123, 255, 0.22);
+  }
+
+  .pub-stat-card.active .pub-stat-label,
+  .pub-stat-card.active .pub-stat-value {
+    color: #007bff;
+  }
+
   .pub-stat-label {
     font-size: 13px;
     font-weight: 700;
     color: #4b5563;
     margin-bottom: 8px;
+    transition: color 0.2s ease;
   }
 
   .pub-stat-value {
@@ -85,58 +87,13 @@ nav:
     font-weight: 800;
     color: #111827;
     line-height: 1;
+    transition: color 0.2s ease;
   }
 
   .pub-stat-sub {
     margin-top: 8px;
     font-size: 12px;
     color: #7b8794;
-  }
-
-  .pub-tab-wrap {
-    text-align: center;
-    margin: 18px auto 28px;
-  }
-
-  .pub-tab-buttons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 12px;
-  }
-
-  .custom-btn {
-    padding: 9px 17px;
-    cursor: pointer;
-    border: 1px solid #007bff;
-    background-color: white;
-    color: #007bff;
-    border-radius: 999px;
-    font-size: 13px;
-    font-weight: 600;
-    transition: all 0.2s ease;
-  }
-
-  .custom-btn:hover {
-    background-color: #eef6ff;
-    color: #007bff;
-  }
-
-  .custom-btn.active {
-    background-color: #007bff;
-    color: white;
-    box-shadow: 0 6px 18px rgba(0, 123, 255, 0.28);
-  }
-
-  .pub-current-tab {
-    font-size: 14px;
-    color: #6b7280;
-  }
-
-  .pub-current-tab strong {
-    color: #111827;
-    font-weight: 700;
   }
 
   .latest-sci-title {
@@ -422,7 +379,7 @@ nav:
 </div>
 
 <script>
-  function showPub(targetId, clickedBtn) {
+  function showPub(targetId, clickedCard) {
     const sections = document.querySelectorAll('.pub-content');
 
     sections.forEach(section => {
@@ -435,43 +392,25 @@ nav:
       target.style.display = 'block';
     }
 
-    const buttons = document.querySelectorAll('.custom-btn');
+    const cards = document.querySelectorAll('.pub-stat-card');
 
-    buttons.forEach(button => {
-      button.classList.remove('active');
+    cards.forEach(card => {
+      card.classList.remove('active');
     });
 
-    if (clickedBtn) {
-      clickedBtn.classList.add('active');
-    }
-
-    const labelMap = {
-      scie: 'SCI(E)',
-      scopus: 'Scopus',
-      domestic: 'Domestic',
-      intl: 'International Conference',
-      domconf: 'Domestic Conference'
-    };
-
-    const currentLabel = document.getElementById('current-tab-label');
-
-    if (currentLabel) {
-      currentLabel.textContent = labelMap[targetId];
+    if (clickedCard) {
+      clickedCard.classList.add('active');
     }
 
     const latestSciSection = document.getElementById('latest-sci-section');
 
     if (latestSciSection) {
-      if (targetId === 'scie') {
-        latestSciSection.style.display = 'block';
-      } else {
-        latestSciSection.style.display = 'none';
-      }
+      latestSciSection.style.display = (targetId === 'scie') ? 'block' : 'none';
     }
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    const defaultBtn = document.querySelector('.custom-btn[data-pub="scie"]');
-    showPub('scie', defaultBtn);
+    const defaultCard = document.querySelector('.pub-stat-card[data-pub="scie"]');
+    showPub('scie', defaultCard);
   });
 </script>
