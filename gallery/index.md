@@ -1,7 +1,7 @@
 ---
 title: Activity
 nav:
-  order: 6
+  order: 7
 ---
 
 # {% include icon.html icon="fa-regular fa-image" %} Activity
