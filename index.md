@@ -71,33 +71,28 @@ SASSL은 융합적 연구를 통해 지속가능한 건축 구조시스템의 �
 <div style="line-height:1.9; text-align:left;">
 
   <div style="margin-bottom:5px;">
-    <div>✓ <strong>Remodeling and seismic retrofit of aging RC structures</strong></div>
-    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">노후 철근콘크리트 구조물의 리모델링 및 성능기반 내진보강설계</div>
+    <div>✓ <strong>Remodeling and seismic retrofit of aging buildings</strong></div>
+    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">노후 건축물 리모델링 및 내진보강기술 개발</div>
   </div>
 
   <div style="margin-bottom:5px;">
-    <div>✓ <strong>Seismic design of high-performance RC structures</strong></div>
-    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">고성능 건설재료 개발 및 내진설계기술 개발</div>
+    <div>✓ <strong>Development and seismic evaluation of high-performance concrete</strong></div>
+    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">고성능 콘크리트 개발 및 내진성능평가</div>
   </div>
 
   <div style="margin-bottom:5px;">
     <div>✓ <strong>Performance-based seismic design of RC and composite structures</strong></div>
-    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">RC 및 합성구조 시스템의 성능기반 내진설계</div>
+    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">RC 및 합성구조의 성능기반 내진설계</div>
   </div>
 
   <div style="margin-bottom:5px;">
-    <div>✓ <strong>FEA-based performance evaluation of RC structures</strong></div>
-    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">FEA 기반 RC 구조물의 성능평가</div>
-  </div>
-
-  <div style="margin-bottom:5px;">
-    <div>✓ <strong>Non-destructive measurement and monitoring of RC structures</strong></div>
-    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">RC 구조물의 비파괴 계측 및 모니터링 기술</div>
+    <div>✓ <strong>Finite element analysis-based structural simulation</strong></div>
+    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">유한요소해석 기반 컴퓨터 시뮬레이션</div>
   </div>
 
   <div style="margin-bottom:10px;">
     <div>✓ <strong>AI-based structural design methods</strong></div>
-    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">인공지능 기반 구조설계기법</div>
+    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">인공지능 활용 구조설계기법 개발</div>
   </div>
 
 </div>
