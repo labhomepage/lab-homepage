@@ -11,34 +11,40 @@
   - "Baek-Il Bae"
   - "Chang-Sik Choi"
   - "Dong-Hee Son"
+  image: /images/Structural concrete_SFRC CCB FEA.jpg
   
 - id: doi:10.1186/s40069-026-00894-5
   corresponding: "Baek-Il Bae"
-
+  image: /images/Structures_UHPC_tension stiffening.jpg
 
 - id: doi:10.1186/s40069-024-00760-2
   corresponding: "Dong-Hee Son"
-
+  image: /images/IJCSM_SFRC Shear friction.jpg
 
 - id: doi:10.1016/j.cemconcomp.2024.105918
   corresponding: "Sungchul Bae"
- 
+  image: /images/CCC_nano sheet.jpg
+   
 - id: doi:10.1016/j.istruc.2024.107324
   corresponding: "Chang-Sik Choi"
+  image: /images/Structures_CFT FEA.jpg
   
 - id: doi:10.1016/j.istruc.2024.106733
   corresponding: "Baek-Il Bae"
+  image: /images/Structures_SFRC DCB.jpg
 
 - id: doi:10.1016/j.istruc.2024.106027
   corresponding:  "Chang-Sik Choi"
-
+  image: /images/Structures_CFT Test.jpg
+  
 - id: doi:10.1016/j.istruc.2024.105940
   corresponding: "Baek-Il Bae"
-
+  image: /images/Structures_SFRC B-C joint.jpg
 
 - id: doi:10.1016/j.conbuildmat.2023.132856
   corresponding: "Sungchul Bae"
-
+  image: /images/CBM_prof_seo.jpg
+  
 - id: doi:10.1016/j.jobe.2023.107188
   corresponding: "Chang-Sik Choi"
   image: /images/JBE_wall vertical division.jpg
