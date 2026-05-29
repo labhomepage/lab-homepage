@@ -115,7 +115,7 @@ SASSL은 융합적 연구를 통해 지속가능한 건축 구조시스템의 �
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/Laboratory_rev.png"
   link="research"
   title="Research"
   text=text
@@ -143,29 +143,6 @@ Recent journal papers, conference publications, and major academic outputs of SA
   title="Publications"
   flip=true
   style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Stay updated with the latest news from SASSL, including awards, research grants, publications, academic activities, and laboratory announcements.
-
-{%
-  include button.html
-  link="news"
-  text="View all news"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="news"
-  title="News"
   text=text
 %}
 
