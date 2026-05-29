@@ -12,158 +12,205 @@ nav:
   .research-container {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 48px;
     margin-top: 30px;
     margin-bottom: 50px;
   }
 
   .research-item {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    background: #ffffff;
+    border: 1px solid #ececec;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.05);
   }
 
-  /* 제목: 검은색 사각형 + 검은색 글자 + 밑줄 */
-  .research-title {
-    font-size: 1.35rem;
-    font-weight: 700;
-    color: #000;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
-    margin: 0;
+  /* 상단 인포그래픽 (풀폭) */
+  .research-figure {
+    width: 100%;
+    background: #fafbfc;
+    border-bottom: 1px solid #eee;
+    text-align: center;
   }
 
-  .research-title::before {
-    content: '';
-    display: inline-block;
-    width: 14px;
-    height: 14px;
-    background-color: #000;
-  }
-
-  /* 본문 배치: 이미지(좌) + 텍스트(우) */
-  .research-content {
-    display: flex;
-    gap: 30px;
-    align-items: flex-start;
-  }
-
-  /* 이미지 크기 조정 */
-  .research-img {
-    flex: 0 0 260px; /* 기존 300px에서 조금 더 줄였습니다 */
-  }
-
-  .research-img img {
+  .research-figure img {
     width: 100%;
     height: auto;
-    border: 1px solid #eee;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: block;
   }
 
-  .research-text {
-    flex: 1;
+  .research-body {
+    padding: 24px 28px 28px;
+    text-align: left;
   }
 
-  .research-text ul {
+  /* 제목: 영문(진하게) + 한글(연하게) */
+  .research-title-en {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #111;
+    margin: 0;
+    line-height: 1.25;
+  }
+
+  .research-title-ko {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #888;
+    margin: 4px 0 0;
+  }
+
+  .research-divider {
+    height: 1px;
+    background: #eee;
+    margin: 16px 0;
+  }
+
+  /* 설명문: 영문(중간) + 한글(연하게) */
+  .research-desc-en {
+    font-size: 1.0rem;
+    line-height: 1.7;
+    color: #333;
+    margin: 0 0 6px;
+    word-break: keep-all;
+  }
+
+  .research-desc-ko {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #999;
+    margin: 0 0 16px;
+    word-break: keep-all;
+  }
+
+  /* 세부 항목: 영문(진하게) + 한글(연하게) */
+  .research-list {
     margin: 0;
     padding-left: 20px;
     list-style-type: disc;
   }
 
-  .research-text li {
-    font-size: 0.98rem;
-    line-height: 1.65;
+  .research-list li {
     margin-bottom: 8px;
-    color: #333;
+    line-height: 1.5;
     word-break: keep-all;
   }
 
+  .research-list .li-en {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #222;
+  }
+
+  .research-list .li-ko {
+    font-size: 0.85rem;
+    color: #999;
+    margin-left: 6px;
+  }
+
   @media (max-width: 768px) {
-    .research-content {
-      flex-direction: column;
-    }
-    .research-img {
-      flex: 0 0 auto;
-      width: 100%;
-    }
+    .research-body { padding: 20px 18px 22px; }
+    .research-title-en { font-size: 1.2rem; }
   }
 </style>
 
 <div class="research-container">
 
   <div class="research-item">
-    <h3 class="research-title">노후 건축물 리모델링 및 내진보강기술 개발</h3>
-    <div class="research-content">
-      <div class="research-img">
-        <img src="/sassl/images/Research_1.png" alt="노후 건축물 리모델링">
-      </div>
-      <div class="research-text">
-        <ul>
-          <li>공동주택 벽식구조 실규모 내진실험</li>
-          <li>하중 재분배 기술 제안 및 기술인증</li>
-          <li>RC 전단벽 보강설계기법 제안</li>
-          <li>프리캐스트 콘크리트 전단벽 내진성능평가</li>
-        </ul>
-      </div>
+    <div class="research-figure">
+      <img src="/sassl/images/Research_1.png" alt="Remodeling and seismic retrofit of aging buildings">
+    </div>
+    <div class="research-body">
+      <h3 class="research-title-en">Remodeling and Seismic Retrofit of Aging Buildings</h3>
+      <p class="research-title-ko">노후 건축물 리모델링 및 내진보강기술 개발</p>
+      <div class="research-divider"></div>
+      <p class="research-desc-en">Many aging apartment buildings no longer satisfy current seismic codes. Through full-scale structural testing and retrofit design, we develop technologies that safely enhance the structural performance of existing buildings.</p>
+      <p class="research-desc-ko">준공 후 수십 년이 지난 노후 공동주택은 현행 내진기준을 만족하지 못하는 경우가 많습니다. 실규모 구조실험과 보강설계기법 개발을 통해 기존 건축물의 구조 성능을 안전하게 향상시키는 기술을 연구합니다.</p>
+      <ul class="research-list">
+        <li><span class="li-en">Full-scale seismic testing of wall-type apartment structures</span><span class="li-ko">공동주택 벽식구조 실규모 내진실험</span></li>
+        <li><span class="li-en">Load redistribution technique and certification</span><span class="li-ko">하중 재분배 기술 제안 및 기술인증</span></li>
+        <li><span class="li-en">Retrofit design method for RC shear walls</span><span class="li-ko">RC 전단벽 보강설계기법 제안</span></li>
+        <li><span class="li-en">Seismic evaluation of precast concrete shear walls</span><span class="li-ko">프리캐스트 콘크리트 전단벽 내진성능평가</span></li>
+      </ul>
     </div>
   </div>
 
   <div class="research-item">
-    <h3 class="research-title">고성능 콘크리트 개발 및 내진성능평가</h3>
-    <div class="research-content">
-      <div class="research-img">
-        <img src="/sassl/images/Research_2.png" alt="고성능 콘크리트">
-      </div>
-      <div class="research-text">
-        <ul>
-          <li>CO2 반응경화 순환골재 콘크리트 개발 및 구조설계법 개발</li>
-          <li>삼중 나노콘크리트 배합기술 개발 및 역학적 성능 향상 규명</li>
-          <li>나노 콘크리트-철근 부착 메커니즘 규명</li>
-          <li>강섬유 보강 콘크리트 (SFRC) 구조부재 내진실험</li>
-          <li>고성능 콘크리트 보-기둥 접합부 정착성능 및 내진성능평가</li>
-        </ul>
-      </div>
+    <div class="research-figure">
+      <img src="/sassl/images/Research_2.png" alt="Development and seismic evaluation of high-performance concrete">
+    </div>
+    <div class="research-body">
+      <h3 class="research-title-en">Development and Seismic Evaluation of High-Performance Concrete</h3>
+      <p class="research-title-ko">고성능 콘크리트 개발 및 내진성능평가</p>
+      <div class="research-divider"></div>
+      <p class="research-desc-en">Sustainable construction requires materials beyond conventional concrete. We develop high-performance materials—including CO₂-cured recycled-aggregate concrete, nano-modified concrete, and steel fiber-reinforced concrete (SFRC)—and experimentally identify the mechanical and seismic performance of members made with them.</p>
+      <p class="research-desc-ko">지속가능한 건축을 위해서는 기존 콘크리트의 한계를 넘는 재료가 필요합니다. CO₂ 반응경화 순환골재 콘크리트, 나노소재 혼입 콘크리트, 강섬유 보강 콘크리트(SFRC) 등 고성능 재료를 개발하고, 이를 적용한 구조부재의 역학적·내진 성능을 규명합니다.</p>
+      <ul class="research-list">
+        <li><span class="li-en">CO₂-cured recycled aggregate concrete and its structural design method</span><span class="li-ko">CO2 반응경화 순환골재 콘크리트 개발 및 구조설계법</span></li>
+        <li><span class="li-en">Triple-nano concrete mix design and mechanical enhancement</span><span class="li-ko">삼중 나노콘크리트 배합기술 및 역학적 성능 향상 규명</span></li>
+        <li><span class="li-en">Bond mechanism between nano-concrete and reinforcement</span><span class="li-ko">나노 콘크리트-철근 부착 메커니즘 규명</span></li>
+        <li><span class="li-en">Seismic testing of SFRC structural members</span><span class="li-ko">강섬유 보강 콘크리트(SFRC) 구조부재 내진실험</span></li>
+        <li><span class="li-en">Anchorage and seismic performance of HPC beam-column joints</span><span class="li-ko">고성능 콘크리트 보-기둥 접합부 정착성능 및 내진성능평가</span></li>
+      </ul>
     </div>
   </div>
 
   <div class="research-item">
-    <h3 class="research-title">유한요소해석 기반 컴퓨터 시뮬레이션</h3>
-    <div class="research-content">
-      <div class="research-img">
-        <img src="/sassl/images/Research_3.png" alt="유한요소해석">
-      </div>
-      <div class="research-text">
-        <ul>
-          <li>DIANA FEA 활용 철근콘크리트 전단벽 내진성능 시뮬레이션 수행</li>
-          <li>VecTor2 활용 벽식구조 휨보강 설계</li>
-          <li>MIDAS GEN 선형동적해석을 통한 철근콘크리트 공동주택 리모델링 구조설계</li>
-        </ul>
-      </div>
+    <div class="research-figure">
+      <img src="/sassl/images/Research_5.png" alt="Performance-based seismic design of RC and composite structures">
+    </div>
+    <div class="research-body">
+      <h3 class="research-title-en">Performance-Based Seismic Design of RC and Composite Structures</h3>
+      <p class="research-title-ko">RC 및 합성구조의 성능기반 내진설계</p>
+      <div class="research-divider"></div>
+      <p class="research-desc-en">We investigate the inelastic behavior of reinforced concrete (RC) and steel-concrete composite structures—such as CFT columns and composite beam-column joints—through experiments and analysis, and develop performance-based seismic design (PBSD) methods grounded in member deformation capacity.</p>
+      <p class="research-desc-ko">철근콘크리트(RC)와 강-콘크리트 합성구조(CFT 기둥, 합성 보-기둥 접합부 등)의 비탄성 거동을 실험과 해석으로 규명하고, 부재의 변형능력에 기반한 성능기반 내진설계(PBSD) 기법을 개발합니다.</p>
+      <ul class="research-list">
+        <li><span class="li-en">Structural performance of prefabricated CFT columns</span><span class="li-ko">조립형 CFT 기둥의 구조성능 평가</span></li>
+        <li><span class="li-en">Behavior of composite beam-column external diaphragm joints</span><span class="li-ko">합성 보-기둥 외다이어프램 접합부 거동 평가</span></li>
+        <li><span class="li-en">Seismic performance of SFRC coupled shear walls and coupling beams</span><span class="li-ko">강섬유 보강 콘크리트 병렬전단벽 및 연결보 내진성능평가</span></li>
+        <li><span class="li-en">Deformation-based performance design method</span><span class="li-ko">변형능력 기반 성능설계 기법 개발</span></li>
+      </ul>
     </div>
   </div>
 
   <div class="research-item">
-    <h3 class="research-title">인공지능 활용 구조설계기법 개발</h3>
-    <div class="research-content">
-      <div class="research-img">
-        <img src="/sassl/images/Research_4.png" alt="인공지능 구조설계">
-      </div>
-      <div class="research-text">
-        <ul>
-          <li>디지털 이미지 상관법 (DIC) 활용 콘크리트 응력분포 및 균열계측</li>
-          <li>머신러닝을 활용한 강섬유 보강 콘크리트 대형 보의 전단설계 메커니즘 규명</li>
-          <li>데이터 필터링 알고리즘 구축 및 비선형 회귀분석을 통한 SFRC 전단설계식 제안</li>
-        </ul>
-      </div>
+    <div class="research-figure">
+      <img src="/sassl/images/Research_3.png" alt="Finite element analysis-based structural simulation">
+    </div>
+    <div class="research-body">
+      <h3 class="research-title-en">Finite Element Analysis-Based Structural Simulation</h3>
+      <p class="research-title-ko">유한요소해석 기반 컴퓨터 시뮬레이션</p>
+      <div class="research-divider"></div>
+      <p class="research-desc-en">Since experiments alone are limited in cost and time, rigorous numerical analysis is essential. Using specialized finite element tools, we accurately predict the behavior of RC structures and cross-validate with experiments to derive reliable design methods.</p>
+      <p class="research-desc-ko">실험만으로는 비용·시간의 한계가 있어 정교한 수치해석이 필수적입니다. 전문 유한요소해석 도구를 활용해 철근콘크리트 구조의 거동을 정밀하게 예측하고, 실험 결과와 상호 검증하여 신뢰성 높은 설계기법을 도출합니다.</p>
+      <ul class="research-list">
+        <li><span class="li-en">Seismic simulation of RC shear walls using DIANA FEA</span><span class="li-ko">DIANA FEA 활용 철근콘크리트 전단벽 내진성능 시뮬레이션</span></li>
+        <li><span class="li-en">Flexural retrofit design of wall structures using VecTor2</span><span class="li-ko">VecTor2 활용 벽식구조 휨보강 설계</span></li>
+        <li><span class="li-en">Remodeling structural design via MIDAS GEN linear dynamic analysis</span><span class="li-ko">MIDAS GEN 선형동적해석을 통한 공동주택 리모델링 구조설계</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="research-item">
+    <div class="research-figure">
+      <img src="/sassl/images/Research_4.png" alt="AI-based structural design methods">
+    </div>
+    <div class="research-body">
+      <h3 class="research-title-en">AI-Based Structural Design Methods</h3>
+      <p class="research-title-ko">인공지능 활용 구조설계기법 개발</p>
+      <div class="research-divider"></div>
+      <p class="research-desc-en">Experimental data is the foundation of new design methods. We acquire precise data on concrete stress distribution and cracking through digital image correlation (DIC), and apply machine learning and nonlinear regression to develop data-driven design methods that go beyond the limits of conventional equations.</p>
+      <p class="research-desc-ko">구조실험에서 얻는 데이터는 새로운 설계기법의 토대입니다. 디지털 이미지 상관법(DIC) 등으로 콘크리트의 응력분포·균열을 정밀 계측해 데이터를 확보하고, 이를 머신러닝·비선형 회귀분석에 적용하여 기존 설계식의 한계를 넘는 데이터 기반 구조설계 기법을 개발합니다.</p>
+      <ul class="research-list">
+        <li><span class="li-en">Stress and crack measurement using digital image correlation (DIC)</span><span class="li-ko">디지털 이미지 상관법(DIC) 활용 응력분포 및 균열계측</span></li>
+        <li><span class="li-en">Machine learning-based shear design mechanism for large SFRC beams</span><span class="li-ko">머신러닝 활용 강섬유 보강 콘크리트 대형 보 전단설계 메커니즘 규명</span></li>
+        <li><span class="li-en">Data filtering and nonlinear regression for SFRC shear design equations</span><span class="li-ko">데이터 필터링 및 비선형 회귀분석을 통한 SFRC 전단설계식 제안</span></li>
+      </ul>
     </div>
   </div>
 
 </div>
-
 
 ## Research Projects
 <b style='font-size: 1.15em;'>21. 순환골재 콘크리트와 GFRP 보강 콘크리트 부착성능 평가기법 개발</b><br>
