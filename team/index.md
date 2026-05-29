@@ -237,8 +237,10 @@ nav:
 </div>
 {% include section.html %}
 
+
+
 ## Collaborating Researchers
-## Collaborating Researchers
+
 <div class="team-grid">
   <div class="member-card">
     <img src="https://labhomepage.github.io/sassl/images/%EC%B5%9C%EC%B0%BD%EC%8B%9D%20%EA%B5%90%EC%88%98.jpg" alt="최창식" class="member-photo">
