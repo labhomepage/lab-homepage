@@ -89,7 +89,7 @@ nav:
   </div>
 
 <div class="activity-row">
-    <img src="https://labhomepage.github.io/sassl/images/2026 봄 콘학.jpg" alt="2026 봄 콘학">
+    <img src="https://labhomepage.github.io/sassl/images/2026 봄 진단학회.jpg" alt="2026 봄 진단학회">
     <div class="activity-text">
       <h3 class="activity-title">2026년 한국구조물진단유지관리공학회 봄 학술대회</h3>
       <p class="activity-desc"> 2026.04.08(수)~2026.04.10(금)<br> 2026년 한국구조물진단유지관리공학회 봄 학술대회 및 30주년 행사에 참석 하였습니다.</p>
