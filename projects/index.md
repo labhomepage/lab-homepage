@@ -7,7 +7,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-diagram-project" %} Research Projects
 
 <style>
-  .proj-list { margin-top: 24px; }
+  .proj-list { margin-top: 16px; }
   .proj-item {
     border-left: 3px solid #e5eaf2;
     padding: 2px 0 2px 16px;
