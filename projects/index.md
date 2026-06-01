@@ -18,7 +18,7 @@ nav:
     font-size: 1.08rem;
     font-weight: 700;
     color: #111;
-    margin: 0 0 4px;
+    margin: 0 0 ２px;
     line-height: 1.4;
     word-break: keep-all;
   }
@@ -37,6 +37,7 @@ nav:
   .proj-meta {
     font-size: 0.9rem;
     color: #666;
+    margin: 0;
   }
 </style>
 
