@@ -148,7 +148,7 @@ nav:
 ## Undergraduate Researchers (Senior)
 <div class="team-grid-narrow">
   <div class="member-card">
-    <img src="https://labhomepage.github.io/sassl/images/김주영.jpg" alt="김주영" class="member-photo">
+    <img src="https://labhomepage.github.io/sassl/images/김주영.png" alt="김주영" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">김주영 <span class="member-name-en-block">(Kim, Juyoung)</span></h3>
       <p class="member-role">Senior</p>
