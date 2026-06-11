@@ -126,11 +126,11 @@ nav:
     </div>
     <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
       <div style="width:25px;">3.</div>
-      <div>Lee, J., <strong><u>Son, D. H.*</u></strong> (2026). Knowledge Transfer Predictive Model for the Shear Capacity of Steel Fiber Reinforced Concrete Beams without Stirrups. <em>Computer-Aided Civil and Infrastructure Engineering</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 9.1 (Q1)]</span> (Under Review).</div>
+      <div>Lee, J., <strong><u>Son, D. H.*</u></strong> (2026). Knowledge Transfer Predictive Model for the Shear Capacity of Steel Fiber Reinforced Concrete Beams without Stirrups. <em>Journal of Building Engineering</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 9.1 (Q1)]</span> (Under Review).</div>
     </div>
     <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
       <div style="width:25px;">2.</div>
-      <div>Lee, M. S., Bae, B. I.*, Choi, C. S., <strong><u>Son, D. H.</u></strong> (2026). Experimental Study on the Behavior and Strength of 180° Hooked-Bar Lap Splices in Precast Slabs. <em>Structures</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 4.3 (Q1)]</span> (Under Review).</div>
+      <div>Lee, M. S., Bae, B. I.*, Choi, C. S., <strong><u>Son, D. H.</u></strong> (2026). Experimental Study on the Behavior and Strength of 180° Hooked-Bar Lap Splices in Precast Slabs. <em>Structures</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 7.4 (Q1)]</span> (Under Review).</div>
     </div>
     <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
       <div style="width:25px;">1.</div>
