@@ -126,7 +126,7 @@ nav:
     </div>
     <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
       <div style="width:25px;">3.</div>
-      <div>Lee, J., <strong><u>Son, D. H.*</u></strong> (2026). Knowledge Transfer Predictive Model for the Shear Capacity of Steel Fiber Reinforced Concrete Beams without Stirrups. <em>Journal of Building Engineering</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 7.4 (Q1)]</span> (Under Review).</div>
+      <div>Lee, J., <strong><u>Son, D. H.*</u></strong> (2026). Knowledge Transfer Predictive Model for the Shear Capacity of Steel Fiber Reinforced Concrete Beams without Stirrups. <em>Engineering Structures</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 7.6 (Q1)]</span> (Under Review).</div>
     </div>
     <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
       <div style="width:25px;">2.</div>
@@ -134,7 +134,7 @@ nav:
     </div>
     <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
       <div style="width:25px;">1.</div>
-      <div><strong><u>Son, D. H.</u></strong>, Lee, M. S., Choi, C. S., Kim, S. Y., Bae, B. I.* (2026). Flexural Retrofit Design of Existing Reinforced Concrete Structural Walls with a Boundary Element Retrofit. <em>Materials and Structures</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 3.9 (Q1)]</span> (Under Review).</div>
+      <div><strong><u>Son, D. H.</u></strong>, Lee, M. S., Choi, C. S., Kim, S. Y., Bae, B. I.* (2026). Flexural Retrofit Design of Existing Reinforced Concrete Structural Walls with a Boundary Element Retrofit. <em>International Journal of Concrete Structures and Materials</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 4.6 (Q1)]</span> (Under Review).</div>
     </div>
   </div>
 
