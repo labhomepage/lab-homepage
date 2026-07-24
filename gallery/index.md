@@ -442,9 +442,9 @@ nav:
     </div>
 
     <div class="photo-source">
-      <img src="https://labhomepage.github.io/sassl/images/gallery1_1.jpg" alt="사진1" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/gallery1_2.jpg" alt="사진2" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/gallery1_3.jpg" alt="사진3" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/gallery1.png" alt="사진1" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2025 봄 콘학 1.jpg" alt="사진2" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2025 봄 콘학 2.jpg" alt="사진3" loading="lazy">
     </div>
     <!-- ▲▲▲ 여기까지 ▲▲▲ -->
 
