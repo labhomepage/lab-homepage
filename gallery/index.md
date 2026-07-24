@@ -140,13 +140,16 @@ nav:
   overflow-y: auto;
 }
 .photo-modal.open {
-  display: block;
+  display: flex;
 }
 
 .photo-modal-inner {
   position: relative;
   max-width: 1000px;                 /* ← 팝업 최대 너비 */
-  margin: 0 auto;
+  width: 100%;      
+  margin: auto;
+  max-height: calc(100vh - 80px);     /* ← 추가 : 화면보다 길면 팝업 내부만 스크롤 */
+  overflow-y: auto;                   /* ← 추가 */
   background: #ffffff;
   border-radius: 14px;
   padding: 28px;
@@ -163,7 +166,7 @@ nav:
 
 /* 우측 상단 X 버튼 */
 .photo-modal-close {
-  position: absolute;
+  position: sticky; 
   top: 16px;
   right: 16px;
   width: 36px;
@@ -176,6 +179,7 @@ nav:
   line-height: 1;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
+  float: right;
 }
 .photo-modal-close:hover {
   background: #1b5fc1;
@@ -268,6 +272,7 @@ nav:
     </div>
 
    <div class="photo-source">
+      <img src="https://labhomepage.github.io/sassl/images/2026 봄 콘학.jpg" alt="사진1" loading="lazy">
       <img src="https://labhomepage.github.io/sassl/images/2026 봄 콘학 1.jpg" alt="사진1" loading="lazy">
       <img src="https://labhomepage.github.io/sassl/images/2026 봄 콘학 2.jpg" alt="사진2" loading="lazy">
   </div>
@@ -298,9 +303,10 @@ nav:
     </div>
 
     <div class="photo-source">
-      <img src="https://labhomepage.github.io/sassl/images/2026 봄 진단학회_1.jpg" alt="사진1" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/2026 봄 진단학회_2.jpg" alt="사진2" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/2026 봄 진단학회_3.jpg" alt="사진3" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 봄 진단학회.jpg" alt="사진1" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 봄 진단학회 1.jpg" alt="사진1" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 봄 진단학회 2.jpg" alt="사진2" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 봄 진단학회 3.jpg" alt="사진3" loading="lazy">
     </div>
     <!-- ▲▲▲ 여기까지 ▲▲▲ -->
 
@@ -330,9 +336,9 @@ nav:
     </div>
 
     <div class="photo-source">
-      <img src="https://labhomepage.github.io/sassl/images/gallery2_1.jpg" alt="사진1" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/gallery2_2.jpg" alt="사진2" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/gallery2_3.jpg" alt="사진3" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/gallery2.jpg" alt="사진1" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2025 가을 콘학 1.jpg" alt="사진2" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2025 가을 콘학 2.jpg" alt="사진3" loading="lazy">
     </div>
     <!-- ▲▲▲ 여기까지 ▲▲▲ -->
 
