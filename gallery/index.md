@@ -325,7 +325,7 @@ nav:
         <p class="activity-date">2025.11.05(수) ~ 2025.11.07(금)</p>
         <p class="activity-desc">
           2025년 콘크리트학회 가을 학술대회에 참석하여 손동희 교수가 학술논문 발표를 하였습니다.<br>
-          발표논문 : 데이터 필터링에 기반한 강섬유 보강 콘크리트 보의 크기효과 저감에 대한 통계적 분석
+         <strong>발표논문 :</strong> 데이터 필터링에 기반한 강섬유 보강 콘크리트 보의 크기효과 저감에 대한 통계적 분석
         </p>
       </div>
     </div>
@@ -336,7 +336,7 @@ nav:
     </div>
 
     <div class="photo-source">
-      <img src="https://labhomepage.github.io/sassl/images/gallery2.jpg" alt="사진1" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/gallery2.png" alt="사진1" loading="lazy">
       <img src="https://labhomepage.github.io/sassl/images/2025 가을 콘학 1.jpg" alt="사진2" loading="lazy">
       <img src="https://labhomepage.github.io/sassl/images/2025 가을 콘학 2.jpg" alt="사진3" loading="lazy">
     </div>
@@ -368,9 +368,11 @@ nav:
     </div>
 
     <div class="photo-source">
-      <img src="https://labhomepage.github.io/sassl/images/gallery3_1.jpg" alt="사진1" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/gallery3_2.jpg" alt="사진2" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/gallery3_3.jpg" alt="사진3" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/gallery3.png" alt="사진1" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/KNUT RISE_1.jpg" alt="사진2" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/KNUT RISE_2.jpg" alt="사진3" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/KNUT RISE_3.jpg" alt="사진3" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/KNUT RISE_4.jpg" alt="사진3" loading="lazy">
     </div>
     <!-- ▲▲▲ 여기까지 ▲▲▲ -->
 
@@ -400,9 +402,17 @@ nav:
     </div>
 
     <div class="photo-source">
-      <img src="https://labhomepage.github.io/sassl/images/gallery4_1.jpg" alt="사진1" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/gallery4_2.jpg" alt="사진2" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/gallery4_3.jpg" alt="사진3" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/gallery4.png" alt="사진2" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2025 내진설계꼉진대회_1.png" alt="사진1" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2025 내진설계꼉진대회_2.png" alt="사진2" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계꼉진대회 3.jpg" alt="사진1" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계꼉진대회 4.jpg" alt="사진2" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계꼉진대회 5.jpg" alt="사진3" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계꼉진대회 6.jpg" alt="사진3" loading="lazy">
+
+      <video src="https://labhomepage.github.io/sassl/videos/2025 내진설계경진대회.mp4"
+           poster="https://labhomepage.github.io/sassl/images/2025 내진설계경진대회 3.png"
+           controls preload="metadata" muted playsinline></video>
     </div>
     <!-- ▲▲▲ 여기까지 ▲▲▲ -->
 
