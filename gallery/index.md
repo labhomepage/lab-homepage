@@ -242,6 +242,7 @@ nav:
         </p>
       </div>
     </div>
+ </div>
 
   <!-- ============================================================
        카드 1 : 2026년 한국콘크리트학회 봄 학술대회
@@ -261,8 +262,7 @@ nav:
       </div>
     </div>
 
-  <!-- ▼▼▼ 추가 사진이 없으면 아래 <div class="more-photo-wrap"> 부터
-</div><!-- /photo-source --> 까지 통째로 삭제 ▼▼▼ -->
+    <!-- ▼▼▼ 추가 사진 블록 (없으면 아래 두 div 를 통째로 삭제) ▼▼▼ -->
    <div class="more-photo-wrap">
       <button class="more-photo-btn" onclick="openPhotos(this)">More photo <span class="arrow">→</span></button>
     </div>
