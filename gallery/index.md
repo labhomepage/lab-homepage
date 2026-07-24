@@ -410,7 +410,7 @@ nav:
       <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 5.jpg" alt="사진3" loading="lazy">
       <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 6.jpg" alt="사진3" loading="lazy">
 
-      <video src="https://labhomepage.github.io/sassl/videos/2025 내진설계경진대회.mp4"
+      <video src="https://labhomepage.github.io/sassl/images/2025 내진설계경진대회.mp4"
            poster="https://labhomepage.github.io/sassl/images/2025 내진설계경진대회 3.png"
            controls preload="metadata" muted playsinline></video>
     </div>
