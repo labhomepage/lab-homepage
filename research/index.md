@@ -118,7 +118,7 @@ nav:
 
   <div class="research-item">
     <div class="research-figure">
-      <img src="/sassl/images/Research_1.png" alt="Remodeling and seismic retrofit of aging buildings">
+      <img src="/sassl/images/Research_1_v2.png" alt="Remodeling and seismic retrofit of aging buildings">
     </div>
     <div class="research-body">
       <h3 class="research-title-en">Remodeling and Seismic Retrofit of Aging Buildings</h3>
