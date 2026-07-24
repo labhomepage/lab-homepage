@@ -403,12 +403,12 @@ nav:
 
     <div class="photo-source">
       <img src="https://labhomepage.github.io/sassl/images/gallery4.png" alt="사진2" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/2025 내진설계꼉진대회_1.png" alt="사진1" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/2025 내진설계꼉진대회_2.png" alt="사진2" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계꼉진대회 3.jpg" alt="사진1" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계꼉진대회 4.jpg" alt="사진2" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계꼉진대회 5.jpg" alt="사진3" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계꼉진대회 6.jpg" alt="사진3" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2025 내진설계경진대회_1.png" alt="사진1" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2025 내진설계경진대회_2.png" alt="사진2" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 3.jpg" alt="사진1" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 4.jpg" alt="사진2" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 5.jpg" alt="사진3" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 6.jpg" alt="사진3" loading="lazy">
 
       <video src="https://labhomepage.github.io/sassl/videos/2025 내진설계경진대회.mp4"
            poster="https://labhomepage.github.io/sassl/images/2025 내진설계경진대회 3.png"
