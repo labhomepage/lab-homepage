@@ -156,7 +156,7 @@ nav:
 
   <div class="research-item">
     <div class="research-figure">
-      <img src="/sassl/images/Research_5.png" alt="Performance-based seismic design of RC, composite, and high-performance concrete members">
+      <img src="/sassl/images/Research_3_v2.png" alt="Performance-based seismic design of RC, composite, and high-performance concrete members">
     </div>
     <div class="research-body">
       <h3 class="research-title-en">Performance-Based Seismic Design of RC, Composite, and High-Performance Concrete Members</h3>
@@ -177,7 +177,7 @@ nav:
 
   <div class="research-item">
     <div class="research-figure">
-      <img src="/sassl/images/Research_3.png" alt="Finite element analysis-based structural simulation">
+      <img src="/sassl/images/Research_4_v3.png" alt="Finite element analysis-based structural simulation">
     </div>
     <div class="research-body">
       <h3 class="research-title-en">Finite Element Analysis-Based Structural Simulation</h3>
@@ -195,7 +195,7 @@ nav:
 
   <div class="research-item">
     <div class="research-figure">
-      <img src="/sassl/images/Research_4.png" alt="AI-based structural design methods">
+      <img src="/sassl/images/Research_5.png" alt="AI-based structural design methods">
     </div>
     <div class="research-body">
       <h3 class="research-title-en">AI-Based Structural Design Methods</h3>
