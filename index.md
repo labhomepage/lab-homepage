@@ -29,6 +29,13 @@ SASSL은 융합적 연구를 통해 지속가능한 건축 구조시스템의 �
   <h3 style="display: inline-block; border-bottom: 2px solid #333; padding-bottom: 5px; margin-bottom: 25px;">
     Recent News
   </h3>
+
+  <div style="margin-bottom:18px; display: flex; align-items: flex-start;">
+    <span style="margin-right:8px;">🏆</span>
+    <div>
+      <strong>[2026.07]</strong> Team Jisoo Shin (and 3 others) won <strong>Encouragement Award</strong> at 「2026 Seismic Structural Design Contest」.
+    </div>
+  </div>
   
   <div style="margin-bottom:18px; display: flex; align-items: flex-start;">
     <span style="margin-right:8px;">🏆</span>
