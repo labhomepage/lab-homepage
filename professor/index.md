@@ -119,6 +119,8 @@ nav:
 {% include section.html %}
 
 ## Honors and Awards
+- **Encouragement Award in Seismic Design Competition**  
+  Pusan National University Seismic Research and Test Center, 2026
 - **Excellence Award in 2025 KNUT Rise Capstone X-Road Design Competition**  
   Korea National University of Transportation, 2025
 - **Idea Excellence Award in Seismic Design Competition**  
