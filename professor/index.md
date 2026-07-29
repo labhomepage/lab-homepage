@@ -98,6 +98,8 @@ nav:
 {% include section.html %}
 
 ## Technical Activity
+- **청주시 기술자문위원**  
+  Aug. 2026 – Jul. 2028
 - **한국산업단지공단 건설자문 전문위원**  
   Apr. 2026 – Apr. 2028
 - **한국토지주택공사(LH) 기술자문위원**  
