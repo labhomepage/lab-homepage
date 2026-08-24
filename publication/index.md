@@ -9,7 +9,7 @@ nav:
 <div class="pub-summary-wrap">
   <div class="pub-stat-card active" onclick="showPub('scie', this)" data-pub="scie">
     <div class="pub-stat-label">SCI(E)</div>
-    <div class="pub-stat-value">18</div>
+    <div class="pub-stat-value">{{ site.data.citations | size }}</div>
     <div class="pub-stat-sub">Journal Papers</div>
   </div>
 
