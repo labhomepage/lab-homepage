@@ -1,5 +1,19 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.istruc.2026.112818
+  title: "Experimental study on the behavior and strength of 180 \xB0 hooked bar lap\
+    \ splices in precast concrete slabs"
+  authors:
+  - Moon-Seok Lee
+  - Baek-Il Bae
+  - Dong-Hee Son
+  - Chang-Sik Choi
+  publisher: Structures
+  date: '2026-10-01'
+  link: https://doi.org/hcgk82
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/suco.70517
   title: "Experimental and analytical evaluation of shear strength in steel\u2010\
     fiber\u2010reinforced concrete conventional coupling beams"
