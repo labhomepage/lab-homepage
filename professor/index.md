@@ -163,6 +163,7 @@ nav:
 - *ACI Structural Journal* — American Concrete Institute (ACI)
 - *Journal of Computing in Civil Engineering* — American Society of Civil Engineering (ASCE)
 - *Engineering Structures* — Elsevier
+- *Structures* — Elsevier
 - *Journal of Building Engineering* — Elsevier
 - *Case Studies in Construction Materials* — Elsevier
 - *International Journal of Concrete Structures and Materials* — Springer
