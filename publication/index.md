@@ -121,20 +121,16 @@ nav:
   <div class="pub-left" style="text-align:left; margin-bottom:28px;">
     <h3 style="margin:10px 0 16px;">Under Review</h3>
     <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
-      <div style="width:25px;">4.</div>
+      <div style="width:25px;">3.</div>
       <div><strong><u>Son, D. H.</u></strong>, Bae, B. I.* (2026). Theoretical Modeling of Stiffness Reduction Mechanisms in Vertically Divided RC Shear Walls by Finite Element Analysis. <em>Results in Engineering</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 9.4 (Q1)]</span> (Under Review).</div>
     </div>
     <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
-      <div style="width:25px;">3.</div>
+      <div style="width:25px;">2.</div>
       <div>Lee, J., <strong><u>Son, D. H.*</u></strong> (2026). Knowledge Transfer Predictive Model for the Shear Capacity of Steel Fiber Reinforced Concrete Beams without Stirrups. <em>Engineering Structures</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 7.6 (Q1)]</span> (Under Review).</div>
     </div>
     <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
-      <div style="width:25px;">2.</div>
-      <div><strong><u>Son, D. H.</u></strong>, Lee, M. S., Choi, C. S., Kim, S. Y., Bae, B. I.* (2026). Flexural Retrofit Design of Existing Reinforced Concrete Structural Walls with a Boundary Element Retrofit. <em>International Journal of Concrete Structures and Materials</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 4.6 (Q1)]</span> (Under Review).</div>
-    </div>
-    <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
       <div style="width:25px;">1.</div>
-      <div>Lee, M. S., Bae, B. I.*, Choi, C. S., <strong><u>Son, D. H.</u></strong> (2026). Experimental Study on the Behavior and Strength of 180° Hooked-Bar Lap Splices in Precast Slabs. <em>Structures</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 4.1 (Q1)]</span> (Accepted).</div>
+      <div><strong><u>Son, D. H.</u></strong>, Lee, M. S., Choi, C. S., Kim, S. Y., Bae, B. I.* (2026). Flexural Retrofit Design of Existing Reinforced Concrete Structural Walls with a Boundary Element Retrofit. <em>International Journal of Concrete Structures and Materials</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 4.6 (Q1)]</span> (Under Review).</div>
     </div>
   </div>
 
