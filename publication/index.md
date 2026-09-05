@@ -15,7 +15,7 @@ nav:
 
   <div class="pub-stat-card" onclick="showPub('scopus', this)" data-pub="scopus">
     <div class="pub-stat-label">Scopus</div>
-    <div class="pub-stat-value">15</div>
+    <div class="pub-stat-value">16</div>
     <div class="pub-stat-sub">Journal Papers</div>
   </div>
 
@@ -138,6 +138,10 @@ nav:
 </div>
 
 <div id="section-scopus" class="pub-content pub-left" style="display:none; text-align:left;">
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">16.</div>
+    <div>오채연, 이문석, <strong><u>손동희</u></strong>, 최창식, 배백일. (2026). 삼축 응력을 받는 강섬유 보강 콘크리트의 재료적 특성에 따른 강도 기준 개선에 대한 연구. 콘크리트학회 논문집, 38(4), 481-489. <a href="https://doi.org/10.4334/JKCI.2026.38.4.481" target="_blank">https://doi.org/10.4334/JKCI.2026.38.4.481</a></div>
+  </div>
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">15.</div>
     <div>김유민, 이문석, <strong><u>손동희</u></strong>, 배백일, 최창식. (2026). 폴리프로필렌 섬유의 형상 및 혼입률에 따른 섬유보강 콘크리트의 온도별 기계적 성능 평가. 콘크리트학회 논문집, 38(2), 129-137. <a href="https://doi.org/10.4334/JKCI.2026.38.2.129" target="_blank">https://doi.org/10.4334/JKCI.2026.38.2.129</a></div>
